@@ -1,0 +1,300 @@
+#index{
+	margin-top:50px;
+	}
+	
+body,h1,h2,h3,h4,p,a{
+	font-family:"Microsoft Yahei",sans-serif,Tahoma, Helvetica, Arial, “\5b8b\4f53″;
+	}
+
+.navbar-nav>li>a,
+#first-blood p,
+#double-kill p,
+#NBA p,
+#music p,
+#movies p,
+#food p,
+#triple p {
+	font-size:15px;
+	}
+
+.yellow_btn {
+	background-color:#fed136;
+	}	
+
+.touxiang{
+	display:inline-block;
+	float:left;
+	margin-right:6px;
+	}
+.touxiang img{
+	display:inline-block;
+	}
+
+.navbar-inverse .navbar-brand {
+    color: #fed136;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:active,
+.navbar-inverse .navbar-brand.active {
+    color: #fec503;
+}
+
+
+ul.dropdown-menu{
+	 background:#F63;
+	 filter:alpha(opacity=80);
+	 -moz-opacity:0.8;
+	 opacity:0.8;
+	}
+	
+.carousel,
+.carousel .item {
+	 background-color:#000;
+	 }
+.carousel .item img {
+	 width:100%;
+	 }
+	 
+.carousel-caption a.btn {
+	color:#999;
+	background-color:#fed136;
+	}
+.carousel-caption a.btn:hover{
+	color:#FFF;
+	background-color:#feba17;
+	}
+	
+
+@media (min-width:768px) {
+    .carousel-caption h3 {
+	    margin-bottom:85px;
+	}
+	
+	.carousel-indicators {
+		margin-bottom:40px;
+		}
+	
+	.carousel-caption p {
+	    margin-bottom:100px;
+	}
+	
+}
+
+@media (max-width:767px) {
+    .carousel-caption h3 {
+		font-size:20px;
+	    margin-bottom:30px;
+	}
+	.carousel-caption .btn {
+	    font-size:10px;
+	}
+	
+	.carousel-indicators {
+		margin-bottom:0;
+		}
+	
+	.carousel-caption p {
+	    margin-bottom:8px;
+	}
+	
+}
+
+
+
+#first-blood .fb-1{
+	margin-top:50px;
+	margin-bottom:40px;
+	}
+#first-blood .fb-2{
+	margin-top:40px;
+	margin-bottom:80px;
+	}
+	
+#double-kill {
+	background-image:url("../images/doublekill-bg.jpg");
+	background-size:100%;
+    -moz-background-size:100%;
+	}
+#double-kill .dk-1{
+	margin-top:50px;
+	margin-bottom:40px;
+	}
+#double-kill .dk-2 .timeline{
+	list-style:none;
+	}
+	
+@media (min-width:768px) {
+	#double-kill{
+		height:1020px;
+		}
+		
+	.timeline {
+	 position:relative;
+	}
+		
+	.timeline .l1:after,
+	.timeline .l2:after,
+	.timeline .l3:after {
+		content:"";
+		display:block;
+		position:absolute;
+		width:1px;
+		height:85px;
+		left:527px;
+		top:136px;
+		border-width:3px;
+		border-color:#F93;
+		border-style:dotted dashed;
+		}
+	
+		
+    .timeline>li {
+		position:relative;
+		min-height:100px;
+		margin-bottom:100px;
+		}
+	
+	.timeline>li .timeline-image,
+	.timeline>li .timeline-panel{
+	     display:inline-block;
+		 position:absolute;
+		}
+	.timeline>li .timeline-image {
+		 width:100px;
+		 left:480px;
+		 top:30px;
+		}
+	.timeline .l1 .timeline-panel,
+	.timeline .l3 .timeline-panel {
+		 width:400px;
+		 left:30px;
+		 top:10px;
+		 text-align:right;
+		}
+		
+	.timeline .l2 .timeline-panel,
+	.timeline .l4 .timeline-panel {
+		 width:400px;
+		 left:630px;
+		 top:10px;
+		 text-align:left;
+		}
+		
+	
+    #triple-kill .tk-2 .contact{
+	 padding-left:220px;
+	}
+}
+
+
+#NBA .N-0{
+	margin-top:50px;
+	margin-bottom:40px;
+	}
+#NBA .N-1{
+	margin-top:20px;
+	margin-bottom:40px;
+	}
+#NBA .N-3{
+	margin-bottom:80px;
+	}
+	
+#music {
+	background-image:url("../images/music-bg.jpg");
+	background-size:100%;
+    -moz-background-size:100%;
+	}
+#music .mu-1{
+	margin-top:50px;
+	margin-bottom:50px;
+	}
+#music .mu-2,
+#music .mu-3,
+#music .mu-4,
+#music .mu-5,
+#music .mu-6 {
+	margin-bottom:25px;
+	}
+#music .mu-7 {
+	margin-bottom:100px;
+	}
+
+	
+#movies .mo-1{
+	margin-top:50px;
+	margin-bottom:50px;
+	}
+#movies .mo-2,
+#movies .mo-3 {
+	margin-bottom:20px;
+	}
+#movies .mo-4 {
+	margin-bottom:80px;
+	}
+#movies .caption a:hover{
+	 color:#F63;
+	 text-decoration:none;
+	}
+
+#food {
+	background-image:url("../images/food-bg.jpg");
+	background-size:100%;
+    -moz-background-size:100%;
+	}
+#food .f-1 {
+	margin-top:50px;
+	margin-bottom:50px;
+	}
+#food .f-2,
+#food .f-3,
+#food .f-4 {
+	margin-bottom:20px;
+	}
+#food .f-5 {
+	margin-bottom:80px;
+	}
+#food a {
+	 color:#333;
+	 text-decoration:none;
+	}
+#food a:hover{
+	 color:#F63;
+	 text-decoration:none;
+	}
+#food a:focus{
+	 -moz-outline-style:none;
+	 outline:none;
+	}	
+	
+#triple-kill {
+	height:250px;
+	background:url(../images/contact.jpg) no-repeat;
+	background-size:auto;
+    -moz-background-size:auto;
+	}
+#triple-kill .tk-1,
+#triple-kill .tk-2{
+	margin-top:20px;
+	}
+	
+@media (max-width:767px) {
+	
+	#triple-kill .tk-2 .contact{
+	 padding-left:120px;
+	}
+}
+
+footer a.chen{
+	color:#FA6D05;
+	text-decoration:none;
+	}
+footer a.chen:hover{
+	color:#F00;
+	text-decoration:none;
+	}
+footer a.chen:focus{
+	-moz-outline-style:none;
+	outline:none;
+	}
+
