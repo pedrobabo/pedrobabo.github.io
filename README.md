@@ -1,2 +1,2 @@
 # pedrobabo.github.io
-a site for my project
+Welcome to my blog~!
